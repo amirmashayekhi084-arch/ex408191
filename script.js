@@ -1,10 +1,10 @@
 for( let i = 1; i <= 20 ; i++){
-   if(i % 3 === 0 && i % 5 ===0)
+   if( i % 5 ===0)
    {
-      console.log(i, "coin tarp");
+      console.log(i, " tarp");
 
-   }else if(i % 5 === 0)
-   {console.log (i , "trap");}
-   else if ( i % 3 === 0)
-   {console.log (i, "coin")}
+   } if(i % 3 === 0)
+   {console.log (i , "coin");}
+   else if ( i % 3 === 0 && i % 5 === 0)
+   {console.log (i, "cointrap")}
 }
